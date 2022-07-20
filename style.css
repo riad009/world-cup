@@ -1,10 +1,15 @@
-h2 {
+h2 { 
+    padding-top: 20px;
     font-family: 'Poppins', sans-serif;
     font-size:  3vw;
 
 }
+.header{
+    padding-top: 50px;
+}
 
 .top-banner {
+    padding-top: 50px;
     background-color: black;
     color: white;
     margin-left: 80px;
@@ -122,4 +127,59 @@ height: 32px;
 }
 .bold{
     font-weight: bolder;
+}
+.footer{
+    margin-top: 50px;
+    width: 1260px;
+    height: 350px;
+background-color: rgb(0, 0, 0);
+padding-bottom: 60px;
+}
+.last{
+ padding-top: 1200px;  
+
+}
+
+body{
+    margin: 0;
+}
+
+.goal{
+    color: aliceblue;
+    padding-top: 30px;
+    padding-left: 45%;
+}
+.hr{
+    padding-left: 80px;
+    padding-right: 80px;
+   
+}
+.contact{
+    color: aliceblue;
+    display: flex;
+    padding-left: 10%;
+   justify-content: space-around
+}
+
+.telegram{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: beige;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+   
+}
+.fa-facebook{
+   color: rgb(32, 21, 234);
+}
+.fa-youtube{
+  color: rgb(255, 23, 23);
+}
+
+.fa-telegram{
+color: rgb(35, 210, 249);
 }
