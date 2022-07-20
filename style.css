@@ -54,6 +54,7 @@ h2 {
     grid-template-columns: repeat(3,1fr);
     padding-left:40px;
     grid-column-gap: 15px;
+    grid-row-gap: 20px;
     
 }
 
@@ -86,7 +87,39 @@ h2 {
 }
 .blog{
     background-color: red;
+    
+}
+
+.caption{
+    padding-left: 15px;
+    padding-top: 2vw;
+    background-color: rgba(219, 232, 232, 0.192);
+    border-left: 1px solid rgba(95, 93, 93, 0.162);
+    border-bottom: 1px solid rgba(95, 93, 93, 0.162);
+    border-right: 1px solid rgba(95, 93, 93, 0.162);
+    
+
+    border-radius: 5px;
+    
 }
 .middle{
     padding-top: 70px;
+}
+.icon{
+    display: flex;
+    padding-left: 5px;
+    border-radius: 5px;
+    
+    
+}
+#msg{
+    padding-left: 20px;
+}
+#transfer{
+    width: 100px;
+height: 32px;
+
+}
+.bold{
+    font-weight: bolder;
 }
