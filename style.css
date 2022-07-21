@@ -273,8 +273,10 @@ padding-bottom: 60px;
  padding-top: 3800px;  
 
 }
-.icon{
+.contact{
    
+  display:list-item; 
 }
+
 }
     
