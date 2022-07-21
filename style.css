@@ -236,3 +236,45 @@ body{
 color: rgb(35, 210, 249);
 padding: 40px;
 }
+
+/*----- media query phone ----- */
+@media screen and ( max-width: 576px){
+.container{
+ grid-template-columns: repeat(1,1fr);
+
+}
+.top-banner{
+    display:table-caption
+}
+.banner-image{
+    padding-top: 20px;
+    padding-left: 2px;
+}
+.animation2{
+    display: none;
+}
+.left-box{
+
+    padding-left: 80px;
+}
+.parent{
+    background-color: aliceblue;
+    display:list-item;
+    padding-left: 50%;
+}
+.footer{
+    margin-top: 50px;
+    width: 1260px;
+    height: 350px;
+background-color: rgb(0, 0, 0);
+padding-bottom: 60px;
+}
+.last{
+ padding-top: 3800px;  
+
+}
+.icon{
+   
+}
+}
+    
